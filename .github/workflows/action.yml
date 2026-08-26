@@ -17,8 +17,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '24.19.0'
-      - run: npm ci
-      - run: npm run docs:build
+      - run: npm ci --force
+      - run: npm run docs:build --force
 
       - name: Init new repo in dist folder and commit generated files
         run: |

@@ -1,3 +1,16 @@
 
 .idea
 *.iml
+
+# Node modules
+node_modules/
+
+# MacOS Desktop Services Store
+.DS_Store
+
+# Log files
+*.log
+
+**/docs/.vuepress/.temp/
+**/docs/.vuepress/.cache/
+**/docs/.vuepress/dist/

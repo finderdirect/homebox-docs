@@ -1,5 +1,5 @@
 {
-  "name": "vuepress-starter",
+  "name": "homebox-docs",
   "private": true,
   "scripts": {
     "dev": "vuepress dev docs",

@@ -21,7 +21,7 @@ jobs:
 
       - name: Init new repo in dist folder and commit generated files
         run: |
-          cd homebox-docs/.vuepress/dist
+          cd docs/.vuepress/dist
           git init
           git add -A
           git config --local user.email "action@github.com"
@@ -34,4 +34,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           force: true
-          directory: ./homebox-docs/.vuepress/dist
+          directory: ./docs/.vuepress/dist

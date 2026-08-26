@@ -3,7 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
-    base: "/homebox-docs/",
+    // base: "/homebox-docs/",
     bundler: viteBundler(),
     theme: defaultTheme(),
 })

@@ -1,20 +1,28 @@
 {
   "name": "homebox-docs",
-  "description": "Homebox Usage Guides",
-  "version": "0.0.1",
-  "license": "Proprietary",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/finderdirect/homebox-docs#readme",
+  "bugs": {
+    "url": "https://github.com/finderdirect/homebox-docs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finderdirect/homebox-docs.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
-    "docs:build": "vuepress build docs",
-    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
-    "docs:update-package": "npx vp-update"
+    "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.20",
-    "@vuepress/theme-default": "2.0.0-rc.88",
-    "sass-embedded": "^1.86.0",
-    "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.20"
+    "@vuepress/bundler-vite": "^2.0.0-rc.31",
+    "@vuepress/theme-default": "^2.0.0-rc.132",
+    "sass-embedded": "^1.103.1",
+    "vuepress": "^2.0.0-rc.31"
   }
 }
